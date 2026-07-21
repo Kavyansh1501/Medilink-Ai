@@ -1,0 +1,129 @@
+.container {
+    height: 100vh;
+    background: #eef5ff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 380px;
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.15);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+    color: #1565C0;
+    margin-bottom: 30px;
+}
+
+.input {
+    padding: 12px 15px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+.input::placeholder {
+    color: black;
+    opacity: 1; 
+}
+.input:focus {
+    border-color: #1565C0;
+}
+
+.button {
+    padding: 12px;
+
+    background: #1565C0;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 17px;
+
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #0d47a1;
+}
+
+.text {
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: gray;
+}
+
+.loginButton {
+    margin-top: 10px;
+
+    padding: 12px;
+
+    border: 2px solid #1565C0;
+
+    background: white;
+
+    color: #1565C0;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 16px;
+
+    transition: 0.3s;
+}
+
+.loginButton:hover {
+    background: #1565C0;
+    color: white;
+}
+.textarea {
+    padding: 12px 15px;
+
+    margin-bottom: 18px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    resize: none;
+
+    height: 90px;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+.textarea:focus {
+    border-color: #1565C0;
+}
